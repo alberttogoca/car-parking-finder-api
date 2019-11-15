@@ -1,5 +1,6 @@
 {
   "name": "car-parking-finder-api",
+  "author": "Alberto Gomez Cano",
   "version": "0.0.0",
   "private": true,
   "scripts": {
