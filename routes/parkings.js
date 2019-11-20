@@ -51,9 +51,18 @@ Secure with CTV`,
 ];
 
 
-/* GET users listing. */
+/* GET parking listing. */
 router.get('/', function(req, res, next) {
   res.json(parkings);
+});
+
+router.get('/:id', function (req, res, next) {
+  let parking = parkings.find((p) => p.id == req.params.id);
+  if (parking === null || parking === undefined) {
+    res.sendStatus(404);
+  } else {
+    res.json(parking);
+  }
 });
 
 module.exports = router;
