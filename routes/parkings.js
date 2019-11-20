@@ -56,6 +56,7 @@ router.get('/', function(req, res, next) {
   res.json(parkings);
 });
 
+/* GET parking by ID. */
 router.get('/:id', function (req, res, next) {
   let parking = parkings.find((p) => p.id == req.params.id);
   if (parking === null || parking === undefined) {
@@ -63,6 +64,18 @@ router.get('/:id', function (req, res, next) {
   } else {
     res.json(parking);
   }
+});
+
+/* Reserve parking */
+router.put('/reserve', function(req, res){
+  let parking = parkings.find((p) => p.id == req.body.id);
+  if (parking === null || parking === undefined) {
+    res.sendStatus(404);
+  } else {
+    parking.free = req.body.free;
+    res.json(parking);
+  }
+
 });
 
 module.exports = router;
