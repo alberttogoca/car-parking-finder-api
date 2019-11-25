@@ -5,7 +5,7 @@ var router = express.Router();
 const parkings = [
   {
     id: 1,
-    title: 'Rautatieläisenkatu 12',
+    title: 'Rautatieläi...',
     price: 5,
     rating: 4.2,
     free: true,
@@ -15,9 +15,7 @@ const parkings = [
     },
     description: `Description about this parking lot
 
-    Amir Dirin
-    +358 440562859
-    Price: 5 € per hour
+    Amir Dirin +358 440562859
     Parking place number: 10
     Available all day`,
   },
@@ -33,16 +31,13 @@ const parkings = [
     },
     description: `Description about this parking lot
 
-    Jonh Wick
-    +358 540232859
-    Price: 7 € per hour
+    Jonh Wick +358 540232859
     Parking place number: 2
-    Available all day
-    Secure with CTV`,
+    Available all day`,
   },
   {
     id: 3,
-    title: 'Rautatieläisenkatu 3',
+    title: 'Rautatieläi...',
     price: 10,
     rating: 4.9,
     free: true,
@@ -52,9 +47,7 @@ const parkings = [
     },
     description: `Description about this parking lot
 
-    Júlíus Björnsson
-    +358 770562853
-    Price: 10 € per hour
+    Júlíus Björnsson +358 770562853
     Parking place number: 6
     Available all day`,
   },
