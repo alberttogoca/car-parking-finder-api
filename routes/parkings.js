@@ -5,22 +5,25 @@ var router = express.Router();
 const parkings = [
   {
     id: 1,
-    title: 'Parking 1',
+    title: 'Rautatieläisenkatu 12',
     price: 5,
     rating: 4.2,
-    free: false,
+    free: true,
     coordinate: {
       latitude: 60.201136,
       longitude: 24.935004,
     },
     description: `Description about this parking lot
 
-Open year 2018
-Secure with CTV`,
+    Amir Dirin
+    +358 440562859
+    Price: 5 € per hour
+    Parking place number: 10
+    Available all day`,
   },
   {
     id: 2,
-    title: 'Parking 2',
+    title: 'Messukuja 2',
     price: 7,
     rating: 3.8,
     free: true,
@@ -30,12 +33,16 @@ Secure with CTV`,
     },
     description: `Description about this parking lot
 
-Open year 2014
-Secure with CTV`,
+    Jonh Wick
+    +358 540232859
+    Price: 7 € per hour
+    Parking place number: 2
+    Available all day
+    Secure with CTV`,
   },
   {
     id: 3,
-    title: 'Parking 3',
+    title: 'Rautatieläisenkatu 3',
     price: 10,
     rating: 4.9,
     free: true,
@@ -45,8 +52,11 @@ Secure with CTV`,
     },
     description: `Description about this parking lot
 
-Open year 2019
-Secure with CTV`,
+    Júlíus Björnsson
+    +358 770562853
+    Price: 10 € per hour
+    Parking place number: 6
+    Available all day`,
   },
 ];
 
