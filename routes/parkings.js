@@ -76,6 +76,7 @@ router.put('/reserve', function(req, res){
     res.sendStatus(404);
   } else {
     parking.free = req.body.free;
+    parking.reservedDate = req.body.reservedDate;
     res.json(parking);
   }
 
