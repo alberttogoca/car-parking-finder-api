@@ -9,6 +9,7 @@ const parkings = [
     price: 5,
     rating: 4.2,
     free: true,
+    reservedDate: null,
     coordinate: {
       latitude: 60.199633,
       longitude: 24.934958,
@@ -24,6 +25,7 @@ const parkings = [
     price: 7,
     rating: 3.8,
     free: true,
+    reservedDate: null,
     coordinate: {
       latitude: 60.202219,
       longitude: 24.933888,
@@ -39,6 +41,7 @@ const parkings = [
     price: 10,
     rating: 4.9,
     free: true,
+    reservedDate: null,
     coordinate: {
       latitude: 60.199359,
       longitude: 24.938463,
