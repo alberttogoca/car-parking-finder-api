@@ -5,19 +5,18 @@ var router = express.Router();
 const parkings = [
   {
     id: 1,
-    title: 'Rautatieläi...',
+    title: 'Veturitori 4',
     price: 5,
     rating: 4.2,
     free: true,
     coordinate: {
-      latitude: 60.201136,
-      longitude: 24.935004,
+      latitude: 60.199633,
+      longitude: 24.934958,
     },
     description: `Description about this parking lot
 
-    Amir Dirin +358 440562859
-    Parking place number: 10
-    Available all day`,
+    Josep Pedrerol: +358 440562859
+    Parking place number: 10`,
   },
   {
     id: 2,
@@ -31,25 +30,23 @@ const parkings = [
     },
     description: `Description about this parking lot
 
-    Jonh Wick +358 540232859
-    Parking place number: 2
-    Available all day`,
+    Jonh Wick: +358 540232859
+    Parking place number: 2`,
   },
   {
     id: 3,
-    title: 'Rautatieläi...',
+    title: 'Kirjurinkatu 3',
     price: 10,
     rating: 4.9,
     free: true,
     coordinate: {
-      latitude: 60.201611,
-      longitude: 24.937697,
+      latitude: 60.199359,
+      longitude: 24.938463,
     },
     description: `Description about this parking lot
 
-    Júlíus Björnsson +358 770562853
-    Parking place number: 6
-    Available all day`,
+    Júlíus Björnsson: +358 770562853
+    Parking place number: 6`,
   },
 ];
 
